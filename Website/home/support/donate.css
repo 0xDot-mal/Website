@@ -1,0 +1,48 @@
+*
+{
+    background-color: #000;
+}
+.donate-div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    height: 100%;
+    background-color: black;
+    border-radius: 10px;
+    border: 1px #fff solid;
+}
+
+.logo
+{
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
+}
+
+
+#hover
+{
+color:transparent;
+-webkit-text-stroke: 1px #fff;
+font-size: 300%;
+text-align: center;
+background-image: linear-gradient(#fff, #fff);
+background-repeat: no-repeat;
+-webkit-background-clip: text;
+background-position: -1250px 0;
+transition: background-position 1s , text-shadow 1s;
+transition-delay: .6s, 0s;
+}
+#hover:hover
+{
+transition: background-position 1s , text-shadow 1s;
+transition-delay: 0s, 1s;
+background-position: 0 0;
+text-shadow: 
+    0 0 5px  #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 20px #fff;
+}

@@ -56,15 +56,14 @@
   border: 3px #fff solid;
   border-radius: 10%;
 }
-  
-.material-symbols-outlined  
+
+
+.logo
 {
-  color: white;
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24,
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-weight: 800;
 }
 
 .main
@@ -74,6 +73,12 @@
     font-weight: 100;
     font-style: normal;
     color: rgb(255, 255, 255);
+}
+.spacing
+{
+  margin: 0;
+  padding: 0;
+  padding-left: 5%;
 }
 
 
